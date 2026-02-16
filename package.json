@@ -1,0 +1,19 @@
+{
+  "name": "form-to-pdf",
+  "version": "0.1.0",
+  "description": "Form builder with PDF export",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": ["forms", "pdf", "builder"],
+  "author": "Auto Company",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1",
+    "pdfkit": "^0.14.0"
+  }
+}
