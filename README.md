@@ -1,20 +1,47 @@
 # Form to PDF
 
-> 表单构建器 + PDF 导出工具
+> 极简表单构建器，填写后自动生成 PDF 下载
 
 ## 功能
 
-- 可视化表单构建
-- 自定义字段类型
-- PDF 导出
-- 表单分享链接
+1. **创建表单** — 定义字段（文本、邮箱、电话、日期等）
+2. **分享链接** — 生成唯一 URL 供填写者访问
+3. **填写表单** — 简洁的表单填写界面
+4. **PDF 下载** — 提交后自动生成并下载 PDF
 
 ## 快速开始
 
 ```bash
+# 安装依赖
 npm install
+
+# 配置环境变量
+cp .env.example .env
+# 编辑 .env 填入数据库配置
+
+# 启动服务
+npm start
+
+# 开发模式（热重载）
 npm run dev
 ```
+
+访问 `http://localhost:3002`
+
+## 部署
+
+```bash
+chmod +x deploy.sh
+./deploy.sh
+```
+
+## 技术栈
+
+- **后端**: Node.js + Express
+- **数据库**: MySQL
+- **PDF 生成**: PDFKit
+- **前端**: HTML + Tailwind CSS
+- **部署**: PM2 + Nginx
 
 ## License
 

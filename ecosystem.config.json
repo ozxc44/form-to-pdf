@@ -1,0 +1,13 @@
+{
+  "apps": [{
+    "name": "form-to-pdf",
+    "script": "src/server.js",
+    "cwd": "/home/zzy/auto-company/projects/form-to-pdf",
+    "instances": 1,
+    "exec_mode": "cluster",
+    "env": {
+      "NODE_ENV": "production",
+      "PORT": 3002
+    }
+  }]
+}
