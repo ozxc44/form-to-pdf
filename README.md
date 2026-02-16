@@ -43,6 +43,14 @@ chmod +x deploy.sh
 - **前端**: HTML + Tailwind CSS
 - **部署**: PM2 + Nginx
 
+## More from Auto Company
+
+| Project | Description | Stars |
+|---------|-------------|-------|
+| [badge-generator](https://github.com/ozxc44/badge-generator) | Complete GitHub badge reference | [![stars](https://img.shields.io/github/stars/ozxc44/badge-generator?style=social)](https://github.com/ozxc44/badge-generator/stargazers) |
+| [flatpdf-api](https://github.com/ozxc44/flatpdf-api) | Self-hosted HTML to PDF API | [![stars](https://img.shields.io/github/stars/ozxc44/flatpdf-api?style=social)](https://github.com/ozxc44/flatpdf-api/stargazers) |
+| [status-badge-2](https://github.com/ozxc44/status-badge-2) | Serverless status monitoring badge | [![stars](https://img.shields.io/github/stars/ozxc44/status-badge-2?style=social)](https://github.com/ozxc44/status-badge-2/stargazers) |
+
 ## License
 
 MIT
